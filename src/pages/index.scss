@@ -1,0 +1,17 @@
+@import '~include-media/dist/include-media';
+
+.IndexPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/images/mara.jpg');
+  background-position: center;
+  background-size: cover;
+
+  h1 {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 700;
+  }
+}
